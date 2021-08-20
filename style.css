@@ -47,7 +47,27 @@ h1 {
     width: 15px;
     height: 15px;
     background-color: white;
-
+    dislay: inline-block;
+    content: "oo";
+    font-size: 25px;
+    border: 1px dotted white;
+    border-radius: 50%;
+    margin: 5px;
+    position: relative;
+    bottom: 5px;
+}
+.h::after {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    dislay: inline-block;
+    content: "oo";
+    font-size: 25px;
+    border: 1px dotted white;
+    border-radius: 50%;
+    margin: 5px;
+    position: relative;
+    bottom: 5px;
 }
 .post-text {
     font-size: 24px;
@@ -127,4 +147,10 @@ footer {
     position: relative;
     bottom: 1100px;
     left: 520px;
+}
+.footer-text::before {
+    content: url("https://cdn.pixabay.com/photo/2014/04/03/00/41/house-309113_960_720.png");
+    display: inline-block;
+    width: 50px;
+    height: 50px;
 }
